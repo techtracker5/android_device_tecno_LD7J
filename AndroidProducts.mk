@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_selene.mk
+    $(LOCAL_DIR)/lineage_LD7.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_selene-user \
-    lineage_selene-userdebug \
-    lineage_selene-eng
+    lineage_LD7-user \
+    lineage_LD7-userdebug \
+    lineage_LD7-eng
