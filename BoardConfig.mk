@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/xiaomi/selene
+DEVICE_PATH := device/tecno/LD7
 
 # A/B
 AB_OTA_UPDATER := true
@@ -67,8 +67,8 @@ BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2
 BOARD_KERNEL_CMDLINE += androidboot.init_fatal_reboot_target=recovery
 
 # Bootloader
-BOARD_VENDOR := xiaomi
-TARGET_BOOTLOADER_BOARD_NAME := selene
+BOARD_VENDOR := tecno
+TARGET_BOOTLOADER_BOARD_NAME := LD7
 TARGET_NO_BOOTLOADER := true
 
 # Display
@@ -86,8 +86,8 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_xiaomi_selene
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 BOARD_CUSTOM_DTBOIMG_MK := $(DEVICE_PATH)/dtbo/dtbo.mk
-TARGET_KERNEL_SOURCE := kernel/xiaomi/selene
-TARGET_KERNEL_CONFIG := selene_defconfig
+TARGET_KERNEL_SOURCE := kernel/tecno/LD7
+TARGET_KERNEL_CONFIG := LD7_defconfig
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CLANG_VERSION := r450784d
 BOARD_KERNEL_SEPARATED_DTBO := true
@@ -190,4 +190,4 @@ BOARD_VNDK_VERSION := current
 WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
 
 # Inherit the proprietary files
-include vendor/xiaomi/selene/BoardConfigVendor.mk
+include vendor/tecno/LD7/BoardConfigVendor.mk
