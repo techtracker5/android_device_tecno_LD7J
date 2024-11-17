@@ -65,6 +65,7 @@ kernel/tecno/LD7/
    ```
 
 The final ROM file will be located in:  
+```bash
 `out/target/product/a12/lineage-21.0-<date>-UNOFFICIAL-LD7.zip`
 ---
 
