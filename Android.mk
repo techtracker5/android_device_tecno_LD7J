@@ -6,7 +6,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter selene, $(TARGET_DEVICE)),)
+ifneq ($(filter selene, $(TARGET_DEVICE)),LD7)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
 VENDOR_SYMLINKS := \
