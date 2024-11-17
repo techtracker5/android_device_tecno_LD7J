@@ -9,21 +9,21 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from device makefile.
-$(call inherit-product, device/xiaomi/selene/device.mk)
+$(call inherit-product, device/tecno/LD7/device.mk)
 
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_selene
-PRODUCT_DEVICE := selene
-PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_BRAND := Redmi
-PRODUCT_MODEL := Redmi 10
+PRODUCT_NAME := lineage_LD7
+PRODUCT_DEVICE := LD7
+PRODUCT_MANUFACTURER := tecno
+PRODUCT_BRAND := tecno
+PRODUCT_MODEL := pova LD7
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="selene-user 11 RP1A.200720.011 V12.5.20.0.RKUMIXM release-keys"
+    PRIVATE_BUILD_DESC="sys_tssi_64_tecno-user 10 QP1A.190711.020 73110 release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT :=  Redmi/selene/selene:11/RP1A.200720.011/V12.5.20.0.RKUMIXM:user/release-keys
+BUILD_FINGERPRINT :=  TECNO/TSSI/FULL-64:10/QP1A.190711.020/220829V160:user/release-keys
