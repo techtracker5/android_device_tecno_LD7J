@@ -68,7 +68,7 @@ BOARD_KERNEL_CMDLINE += androidboot.init_fatal_reboot_target=recovery
 
 # Bootloader
 BOARD_VENDOR := tecno
-TARGET_BOOTLOADER_BOARD_NAME := LD7
+TARGET_BOOTLOADER_BOARD_NAME := CY-LD7-H694-N
 TARGET_NO_BOOTLOADER := true
 
 # Display
